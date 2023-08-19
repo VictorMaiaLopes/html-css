@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações</title>
+    <link rel="shortcut icon" href="ico ferrari.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Links para download</h1>
+<ul>
+    <li><a href="meulivro.pdf" target="_blank" download="meulivro.pdf" type="application.pdf">Baixar o livro em PDF</a></li>
+    <li><a href="10 - Ligações em toda parte.zip" download="10 - Ligações em toda parte.zip" type="application.zip">Livro compactado em ZIP</a></li>
+</ul>
+<p>Seguindo esses códigos acima, é possivel adicionar itens para download.</p>
+<h1>Adaptando imagens</h1>
+<p>Vamos adaptar as imagens, para todos os tamanhos de tela.</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+</picture>
+<p>Usando a <mark>tag (PICTURE)</mark> você consegue adicionar outras tags que adicionam imagens, e assim faz com que mude o tamanho, a tag <mark>(IMG)</mark> e a tag <mark>(SOURCE MEDIA TYPE)</mark>, seguindo o padrão acima.</p>
+<a href="pagina09.html">Próxima página</a>
+</body>
+</html>

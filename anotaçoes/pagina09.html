@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações</title>
+    <link rel="shortcut icon" href="ico ferrari.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio src="audio/musica1.mp3" controls autoplay></audio>
+    <p>Existem dois modos para colocar áudios no site. O primeiro que está acima, usando direto a tag (AUDIO), e abaixo, iremos também usar a tag (AUDIO), porém iremos modificala, para que possamos acrescentar mais tipos de midias.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/musica1.mp3" type="audio/mp3">
+        <source src="audio/musica1.mp3" type="audio./ogg">
+        <source src="audio/musica1.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <a href="audio/musica1.mp3">Clique aqui para baixar o arquivo</a>
+    </audio> 
+    <h1>Estilo CSS</h1>
+    <p>No mesmo arquivo, podemos usar CSS externo, CSS interno e o CSS inline. O que fica prevalecendo como configuração final mais forte é o CSS inline, depois o CSS interno e por último o CSS externo.</p>
+    
+    
+</body>
+</html>

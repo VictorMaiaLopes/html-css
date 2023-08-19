@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-style: italic;
+            /* shorthand font (junção das fontes)
+            style -> weight -> size-> family */
+            font: italic bolder 16px 'Arial', Helvetica, sans-serif;
+        }
+
+        h1, h2 {
+            text-decoration: underline;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Fontes</h1>
+        <pre><mark>Font style=</mark> Estilo da letra, formato (Italic) entre outros.
+        <mark>Font weight=</mark> "gordura da letra", podemos definir a largura, peso da letra (lighter - normal - bold - bolder), seguindo do mais "magro", para o mais "gordo".
+        <mark>Font size=</mark> Tamanho da letra, recomenda-se que utilize a marcação por (px - em).
+        <mark>Font family=</mark> é a família da letra, exemplo: Arial, Helvetica, sans-serif.
+        <mark>Text decoration=</mark> Sublinhar frases, destacar.
+        <mark>Shorthand font=</mark> é uma forma de juntar todas as fonts, dentro de apenas uma. Basta seguir a ordem de cada fonte, após utilizar a tag (font)
+        <mark>(font-style -> font-weight -> font-size-> font-family)</mark>
+        <mark>font= italic bolder 16px 'Arial', Helvetica, sans-serif;</mark>
+        </pre>
+    </main>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laboriosam quasi velit eveniet. Vitae, animi culpa. Natus tempora doloribus totam! Quaerat facilis rem unde doloribus quisquam officia reiciendis molestias et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore temporibus perspiciatis quam, voluptas soluta quisquam accusamus reiciendis eveniet id repellendus maxime fuga architecto, eligendi quidem minima veniam, perferendis ducimus impedit.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus culpa ratione dignissimos id accusantium facere aspernatur, minus esse totam corporis hic cupiditate perferendis a voluptatum porro nostrum ut consectetur.</p>
+</body>
+</html>
